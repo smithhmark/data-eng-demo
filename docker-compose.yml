@@ -1,0 +1,6 @@
+services:
+  dagster:
+    build:
+      context: .
+      dockerfile: ETL.dockerfile
+    command: bash
